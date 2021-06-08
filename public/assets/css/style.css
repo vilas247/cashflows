@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('../fonts/ApercuPro-Bold.eot');
+    src: url('../fonts/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ApercuPro-Bold.woff2') format('woff2'),
+        url('../fonts/ApercuPro-Bold.woff') format('woff'),
+        url('../fonts/ApercuPro-Bold.ttf') format('truetype'),
+        url('../fonts/ApercuPro-Bold.svg#ApercuPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('../fonts/ApercuPro-Light.eot');
+    src: url('../fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ApercuPro-Light.woff2') format('woff2'),
+        url('../fonts/ApercuPro-Light.woff') format('woff'),
+        url('../fonts/ApercuPro-Light.ttf') format('truetype'),
+        url('../fonts/ApercuPro-Light.svg#ApercuPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('../fonts/ApercuPro-Medium.eot');
+    src: url('../fonts/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ApercuPro-Medium.woff2') format('woff2'),
+        url('../fonts/ApercuPro-Medium.woff') format('woff'),
+        url('../fonts/ApercuPro-Medium.ttf') format('truetype'),
+        url('../fonts/ApercuPro-Medium.svg#ApercuPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('../fonts/ApercuPro-Regular.eot');
+    src: url('../fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ApercuPro-Regular.woff2') format('woff2'),
+        url('../fonts/ApercuPro-Regular.woff') format('woff'),
+        url('../fonts/ApercuPro-Regular.ttf') format('truetype'),
+        url('../fonts/ApercuPro-Regular.svg#ApercuPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	background: #f6f6f8;
+	font-family: 'Apercu Pro';
+	font-weight: normal;
+}
+
+h1.logo {
+	margin-bottom: 30px;
+}
+
+.login-form {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 85px #00000040;
+}
+
+.login-form input {
+	background: #f9f9fa;
+	border-color: #f8f8f8;
+	border-radius: 8px;
+}
+
+.login-form h3 {
+	font-size: 26px;
+	letter-spacing: -0.5px;
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
+.login-form h5 {
+	font-size: 18px;
+	color: rgba(22,29,36,0.6);
+	letter-spacing: -0.5px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.pg-30 {
+	padding: 30px;
+}
+
+.mt-20 {
+	margin-top: 2rem !important;
+}
+
+#show_hide_password {
+	position: relative;
+}
+
+#show_hide_password .input-group-addon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.input-group-addon a {
+	color: #8F92A1;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.input-height input {
+	height: 46px;
+	font-size: 18px;
+}
+
+.login-form h2 {
+	font-size: 26px;
+}
+
+.login-form h5 {
+	font-size: 18px;
+}
+
+.btn-dark {
+	background: #400080;
+	border-radius: 8px;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+	background: #5d00b9;	
+}
+
+button:focus {
+	box-shadow: 0 0 0 transparent !important;
+}
+
+.login-form small {
+	color: #161D24;
+	font-size: 15px;
+	letter-spacing: -0.25px;
+}
+
+.login-form small a {
+	color: #161D24;
+	font-weight: bold;
+}
+
+.login-form small a:hover {
+	text-decoration: none;
+}
+
+input:focus {
+	box-shadow: 0 0 0 0 rgb(13 110 253 / 25%) !important;
+	border-color: rgba(64,0,128,0.4) !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.col-md-4.customWidth {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1025px) {
+	.col-md-4.customWidth {
+		width: 36%;
+	}
+
+	h1.logo {
+		margin-top: 175px;
+	}
+}
+
+@media (min-width: 768px) {
+	h1.logo {
+		margin-top: 130px;
+	}
+}
+
+@media (max-width: 767px) {
+	.login-form {
+		box-shadow: 0px 0px 25px #00000040;
+	}
+}

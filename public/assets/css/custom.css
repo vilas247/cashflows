@@ -1,0 +1,208 @@
+#myInput {
+  /*background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+  border: none;
+  margin-bottom: 12px;
+  background: #f1f1f1;
+  position:relative;
+}
+#exampleInputEmail1 {
+  /*background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+  border: none;
+  margin-bottom: 12px;
+  background: #f1f1f1;
+  position:relative;
+}
+
+.sm-margin {
+	margin-bottom: 1px;
+}
+#myTable,#orderdetails_dashboard {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+#myTable th, #myTable td,#orderdetails_dashboard th,#orderdetails_dashboard td{
+  text-align: left;
+}
+#myTable th,#orderdetails_dashboard th{
+    border-right:1px solid #ddd;
+}
+#myTable tr,#orderdetails_dashboard tr {
+  border-bottom: 1px solid #ddd;
+  background-color:#fff;
+}
+#myTable tr.header,#orderdetails_dashboard tr.header{
+  background-color: #f1f1f1;
+}
+.dropdown{
+    float:right;
+}
+.btn-secondary {
+    color: #171717 !important;
+    border-color: #f1f1f1 !important;
+    background: #f1f1f1 !important;
+}
+.table-color .btn-outline-success,.table-color .btn-outline-primary{
+    border-radius:25px;
+}
+.main-content {
+    padding: 50px 0;
+    background: #F6F6F8;
+}
+.card-header{
+    background-color:#161D24;
+    color:#FFFFFF;
+}
+.bg-success {
+    background-color: #1EC29A!important;
+}
+p{
+    margin-bottom:0px;
+}
+.card-content{
+    border-bottom:1px solid #E9E9EB;
+    padding:20px;
+}
+.see-tranc a{
+    color:#1EC29A!important;
+    margin-left:10px;
+}
+.bg-secondary {
+    background-color: rgba(143,146,161,0.1)!important;
+    padding: 8px 25px;
+    color:#161D24;
+}
+.form-check-input:checked {
+    background-color: #1EC29A;
+    border-color: #1EC29A;
+}
+.form-check-input.btns-red:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+/*.btn.btn-lg{
+    border-radius:25px !important;
+}*/
+textarea.form-control{
+    /*background:rgba(74,142,204,0.1);*/
+    background: #bfc2c540;
+}
+
+
+.btn-purple, .btn-purple:hover{
+  background-color:#480484
+;
+  color:#fff;
+}
+.btn-text-color{
+  border:1px solid grey;
+    color:#480484;
+    font-weight: 600;
+}
+.navbar-header{
+  max-width: 945px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-text .btn-text-blue{
+    border:1px solid #4A8ECC;
+    color:#4A8ECC;
+    background-color:#fff;
+    border-radius:20px;
+}
+.navbar-text .btn-blue{
+    border:1px solid #4A8ECC;
+    color:#fff;
+    background-color:#4A8ECC;
+    border-radius:20px;
+}
+.header-image img{
+    width:70%;
+    height:50%;
+}
+/*.btn.btn-lg{
+    border-radius:20px;
+}*/
+/*.uploads-container{
+  border-radius: 40px;
+    border:1px solid #5C8DC726;
+    box-shadow: 0px 1px 6px #00000012;
+}*/
+
+.uploads-container{
+  border-radius: 10px;
+    box-shadow: 0.2em 0.2em 1em rgb(0 0 0 / 20%);
+    border: 1px solid transparent;
+    display: inline-table;
+}
+.uploads-icon{
+  position: relative;
+  overflow: hidden;
+  color:#480484;
+  float:right;
+  bottom: 0px;
+}
+.top-search{
+  display: inline-flex;
+}
+.order-srch{
+  background-color: #fff;
+  margin: 2px;
+  padding: 15px 0px 5px 0px;
+}
+.top-search i{
+  line-height: 38px;
+  background: #f1f1f1;
+  color: #80808094;
+  padding-left: 15px;
+  display: table;
+}
+.btn-pink{background: #FC94AF;}
+.table-status-clr{color: #00000094;}
+
+.com-btn{
+  max-width: 95px;
+    width: 100%;
+    padding: 0.15rem 0.45rem;
+    border-radius: 0.65rem;
+}
+.login-form small {
+    font-size: 12px !important;
+}
+
+/*Media Query*/
+@media (min-width:320px){
+  .amount{
+      display:flex;
+  }
+}
+@media (max-width:575px){
+.amount .pending{
+    margin-left:20px;
+}
+}
+@media (max-width:767px){
+  .amount{
+    margin-bottom:10px;
+  }
+}
+@media (max-width:344px){
+    .navbar-text .order-mobile{
+        margin-top:15px;
+    }
+}
